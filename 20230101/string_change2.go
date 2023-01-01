@@ -19,4 +19,8 @@ func main() {
 	fmt.Println(strings.Contains("我是 AAA", "A"))
 	fmt.Println(strings.Contains("我是 AAA", "B"))
 
+	//任意包含  即 第一个和第二个是否存在重叠字符，存在返回true，不存在返回false
+	fmt.Println(strings.ContainsAny("我是 AAA", "AB"))
+	fmt.Println(strings.ContainsAny("我是 AAA", "B"))
+
 }
