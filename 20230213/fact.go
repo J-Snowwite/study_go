@@ -14,6 +14,8 @@ func f(n int64) int64 {
 	if n == 0 {
 		return 1
 	}
+	b := 1
+	fmt.Println("输出参数", b+1)
 	return n * f(n-1)
 }
 
