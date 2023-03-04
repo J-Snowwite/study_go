@@ -20,6 +20,7 @@ func addBase(base int) func(int) int {
 //}
 //上述方法如果在函数中被调用，那么可以认为是一个闭包
 
+//变量的生命周期--调用方法时创建，调用完成后销毁
 func main() {
 	add1 := addBase(1)
 	fmt.Println(add1)
